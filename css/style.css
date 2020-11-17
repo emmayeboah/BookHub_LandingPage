@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  color: white;
+}
+
+.bg-image{
+  width: 100%;
+  height:680px;
+  background-image: url("../images/book_shelve.jpg");
+  background-repeat: no-repeat;
+}
+
+.container{
+  width:1200px;
+  height: 600px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+.header{
+  width: 1200px;
+  padding: 20px;
+}
+
+nav>ul>li{
+  list-style: none;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+
+nav>ul>li>a{
+  text-decoration: none;
+  font-family: 'Abhaya Libre', serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 0 20px 0 20px;
+}
+
+nav>ul{
+  position: absolute;
+  right: 150px;
+}
+
+.btn{
+  width: 130px;
+  height: 40px;
+  background-image: linear-gradient(to bottom left, #a86f32, white);
+  font-family: 'Bellota Text', cursive;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  font-size: 18px;
+  right: 0;
+  border-color: #baafa4;
+  border-style: solid;
+  font-weight: bold;
+}
+
+.logo{
+  color: #fff;
+  font-family: 'Adamina', serif;
+  font-size: 36px;
+  position: absolute;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+
+.main-part{
+  width: 500px;
+  font-family: 'Bellota Text', cursive;
+  color: #fff;
+  position: relative;
+  padding-left: 20px;
+  font-size: 23px;
+  top: 250px;
+}
+
+
+
+.brand-quote{
+  color: #fff;
+  font-family: 'Charm', cursive;
+  font-size: 100px;
+  padding-left: 20px;
+  position: relative;
+  top: 210px;
+
+
+}
+
+.description{
+  position: relative;
+  top: 230px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: 'Cormorant', serif;
+}
